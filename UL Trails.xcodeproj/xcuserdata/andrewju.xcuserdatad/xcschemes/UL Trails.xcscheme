@@ -37,6 +37,11 @@
                BlueprintName = "UL TrailsTests"
                ReferencedContainer = "container:UL Trails.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "UL_TrailsTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

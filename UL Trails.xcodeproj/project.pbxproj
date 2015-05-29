@@ -22,6 +22,7 @@
 		AB67DA4B1960BD790037B7CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB67DA2A1960BD780037B7CB /* UIKit.framework */; };
 		AB67DA531960BD790037B7CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB67DA511960BD790037B7CB /* InfoPlist.strings */; };
 		AB67DA551960BD790037B7CB /* UL_TrailsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67DA541960BD790037B7CB /* UL_TrailsTests.m */; };
+		AB67DA621960BF6C0037B7CB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67DA611960BF6C0037B7CB /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		AB67DA501960BD790037B7CB /* UL TrailsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UL TrailsTests-Info.plist"; sourceTree = "<group>"; };
 		AB67DA521960BD790037B7CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB67DA541960BD790037B7CB /* UL_TrailsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UL_TrailsTests.m; sourceTree = "<group>"; };
+		AB67DA601960BF6C0037B7CB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AB67DA611960BF6C0037B7CB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		AB67DA2C1960BD780037B7CB /* UL Trails */ = {
 			isa = PBXGroup;
 			children = (
+				AB67DA601960BF6C0037B7CB /* Reachability.h */,
+				AB67DA611960BF6C0037B7CB /* Reachability.m */,
 				AB67DA351960BD780037B7CB /* AppDelegate.h */,
 				AB67DA361960BD780037B7CB /* AppDelegate.m */,
 				AB67DA381960BD780037B7CB /* Main_iPhone.storyboard */,
@@ -202,6 +207,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "The University of Limerick (UL)";
 				TargetAttributes = {
+					AB67DA221960BD780037B7CB = {
+						DevelopmentTeam = 67NS2C8A3V;
+					};
 					AB67DA461960BD790037B7CB = {
 						TestTargetID = AB67DA221960BD780037B7CB;
 					};
@@ -255,6 +263,7 @@
 			files = (
 				AB67DA401960BD780037B7CB /* ViewController.m in Sources */,
 				AB67DA371960BD780037B7CB /* AppDelegate.m in Sources */,
+				AB67DA621960BF6C0037B7CB /* Reachability.m in Sources */,
 				AB67DA331960BD780037B7CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,10 +399,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UL Trails/UL Trails-Prefix.pch";
 				INFOPLIST_FILE = "UL Trails/UL Trails-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +416,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UL Trails/UL Trails-Prefix.pch";
 				INFOPLIST_FILE = "UL Trails/UL Trails-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +487,7 @@
 				AB67DA5A1960BD790037B7CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB67DA5B1960BD790037B7CB /* Build configuration list for PBXNativeTarget "UL TrailsTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +496,7 @@
 				AB67DA5D1960BD790037B7CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
