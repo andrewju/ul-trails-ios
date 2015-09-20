@@ -204,7 +204,7 @@
 		AB67DA1B1960BD780037B7CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "The University of Limerick (UL)";
 				TargetAttributes = {
 					AB67DA221960BD780037B7CB = {
@@ -340,6 +340,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -405,6 +406,7 @@
 				GCC_PREFIX_HEADER = "UL Trails/UL Trails-Prefix.pch";
 				INFOPLIST_FILE = "UL Trails/UL Trails-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ul.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -422,6 +424,7 @@
 				GCC_PREFIX_HEADER = "UL Trails/UL Trails-Prefix.pch";
 				INFOPLIST_FILE = "UL Trails/UL Trails-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ul.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -444,6 +447,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "UL TrailsTests/UL TrailsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ul.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -462,6 +466,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UL Trails/UL Trails-Prefix.pch";
 				INFOPLIST_FILE = "UL TrailsTests/UL TrailsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ul.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
