@@ -23,6 +23,8 @@
 		AB67DA531960BD790037B7CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB67DA511960BD790037B7CB /* InfoPlist.strings */; };
 		AB67DA551960BD790037B7CB /* UL_TrailsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67DA541960BD790037B7CB /* UL_TrailsTests.m */; };
 		AB67DA621960BF6C0037B7CB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67DA611960BF6C0037B7CB /* Reachability.m */; };
+		ABA1D2EB1BAEC94100E904A2 /* ularts.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = ABA1D2EA1BAEC94100E904A2 /* ularts.mobileprovision */; settings = {ASSET_TAGS = (); }; };
+		ABA1D2ED1BAEC95700E904A2 /* UL Trails.ipa in Resources */ = {isa = PBXBuildFile; fileRef = ABA1D2EC1BAEC95700E904A2 /* UL Trails.ipa */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		AB67DA541960BD790037B7CB /* UL_TrailsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UL_TrailsTests.m; sourceTree = "<group>"; };
 		AB67DA601960BF6C0037B7CB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		AB67DA611960BF6C0037B7CB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		ABA1D2EA1BAEC94100E904A2 /* ularts.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = ularts.mobileprovision; sourceTree = "<group>"; };
+		ABA1D2EC1BAEC95700E904A2 /* UL Trails.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UL Trails.ipa"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		AB67DA1A1960BD780037B7CB = {
 			isa = PBXGroup;
 			children = (
+				ABA1D2EC1BAEC95700E904A2 /* UL Trails.ipa */,
+				ABA1D2EA1BAEC94100E904A2 /* ularts.mobileprovision */,
 				AB67DA2C1960BD780037B7CB /* UL Trails */,
 				AB67DA4E1960BD790037B7CB /* UL TrailsTests */,
 				AB67DA251960BD780037B7CB /* Frameworks */,
@@ -242,7 +248,9 @@
 				AB67DA3D1960BD780037B7CB /* Main_iPad.storyboard in Resources */,
 				AB67DA421960BD780037B7CB /* Images.xcassets in Resources */,
 				AB67DA3A1960BD780037B7CB /* Main_iPhone.storyboard in Resources */,
+				ABA1D2EB1BAEC94100E904A2 /* ularts.mobileprovision in Resources */,
 				AB67DA311960BD780037B7CB /* InfoPlist.strings in Resources */,
+				ABA1D2ED1BAEC95700E904A2 /* UL Trails.ipa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
